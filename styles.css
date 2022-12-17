@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 16px;
+    font-family: helvetica;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+aside{
+color:white;
+width: 50vw;
+height: 100vh;
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+}
+main{
+color:white;
+width: 50vw;
+height: 100vh;
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+background-color:  #2AB9D3;
+}
+aside img{
+    width: 100%;
+    transition: 0.3s;
+}
+aside img{
+    width: 100%
+}
+aside img:hover{
+    width: 120%;
+    transition: 0.3s;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+input::placeholder{
+    font-size: 1.0rem;
+    text-align: center;
+    
+}
+main form input{
+    border-radius: 20px;
+    width: 300px;
+    height: 42px;
+    background-color: #E5E1F7;
+    border:none
+}
+
+main form label{
+    color: white;
+}
+
+main form button{
+    margin-top: 2rem;
+    background-color: #17CE73;
+    border-radius: 20px;
+    width: 300px;
+    height: 42px;
+    color:white;
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border: none;
+
+}
+
+main form button:hover{
+    background-color: white;
+    color:#2AB9D3;
+}
+
+.checkbox{
+    width: 20px;
+}
+.esqueceu-senha, .cadastre-se{
+    margin-top: 1rem;
+    display: flex;
+    justify-content:center;
+    color:white;
+}
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+    aside{
+        display: none;
+    }
+    main{
+        width: 100vw;
+        height: 100vh; 
+    }
+    
